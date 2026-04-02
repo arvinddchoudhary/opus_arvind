@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.card { @apply bg-slate-800 rounded-xl border border-slate-700 p-6; }
+.badge-critical { @apply bg-red-900 text-red-200 text-xs font-semibold px-2 py-1 rounded-full; }
+.badge-high     { @apply bg-orange-900 text-orange-200 text-xs font-semibold px-2 py-1 rounded-full; }
+.badge-medium   { @apply bg-yellow-900 text-yellow-200 text-xs font-semibold px-2 py-1 rounded-full; }
+.badge-low      { @apply bg-green-900 text-green-200 text-xs font-semibold px-2 py-1 rounded-full; }
+.badge-fraud    { @apply bg-red-900 text-red-200 text-xs font-semibold px-2 py-1 rounded-full; }
+.badge-approved { @apply bg-green-900 text-green-200 text-xs font-semibold px-2 py-1 rounded-full; }
